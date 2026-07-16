@@ -1,0 +1,19 @@
+{
+  "version": "V6",
+  "rule": "non_dialogue_foley_is_added_in_post_and_must_follow_visible_action",
+  "events": [
+    {"shot":"A01","events":["continuous_rain","distant_traffic"]},
+    {"shot":"A04","events":["soldering_iron_hits_floor_once","wooden_stool_scrapes_once","heartbeat_twice_then_stop"]},
+    {"shot":"B01","events":["mechanical_alarm_continues_from_A04"]},
+    {"shot":"B02","events":["alarm_stops_exactly_on_button_press"]},
+    {"shot":"B03","events":["bare_room_footsteps"]},
+    {"shot":"B04","events":["calendar_page_tears_once","low_heartbeat"]},
+    {"shot":"B05","events":["rack_metal_creak_once","bolt_pops_once","lunchbox_hits_floor_once"]},
+    {"shot":"B06","events":["front_door_lock_once","front_door_hinge_once","father_steps"]},
+    {"shot":"B08","events":["clothing_rustle","lunchbox_handle_clinks_once"]},
+    {"shot":"B09","events":["lunchbox_set_on_table_once","single_sheet_unfolds_once","paper_touches_table_once"]},
+    {"shot":"C01","events":["stairs_footsteps_approach","one_short_recovery_breath","two_knocks_half_second_apart"]},
+    {"shot":"C02","events":["door_lock_once","door_hinge_once","laoliu_two_steps"]},
+    {"shot":"C03","events":["single_small_sheet_handover","heartbeat_returns_at_end"]}
+  ]
+}

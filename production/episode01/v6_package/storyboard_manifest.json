@@ -1,0 +1,53 @@
+{
+  "version": "V6",
+  "source_method": "role_card_storyboard_tail_frame",
+  "adaptation": "seedance_1_5_single_clean_first_frame",
+  "rule": "storyboard_sheet_is_for_planning_only; submit_one_clean_9_16_frame_to_video_model",
+  "groups": [
+    {
+      "id": "SB-A",
+      "shots": ["A01", "A02", "A03", "A04"],
+      "role_cards": ["R04_old_chen"],
+      "scene_masters": ["S28_M1_exterior", "S28_M2_workbench_stool"],
+      "direct_tail_chains": ["A03>A04"],
+      "state_transfer_chains": ["A01>A02", "A02>A03"],
+      "critical_checks": ["same_art_style", "same_old_face", "stool_visible_A03_A04", "fall_once"]
+    },
+    {
+      "id": "SB-B",
+      "shots": ["B01", "B02", "B03", "B04", "B05"],
+      "role_cards": ["R01_young_chen"],
+      "scene_masters": ["S98_HOUSE_layout", "S98_M1_open_main_room", "S02_warehouse"],
+      "direct_tail_chains": ["B01>B02"],
+      "state_transfer_chains": ["B02>B03", "B03>B04"],
+      "sound_bridges": ["B04>B05_heartbeat"],
+      "critical_checks": ["wake_once", "same_bed", "open_room_no_bedroom_door", "continuous_walk_bed_to_calendar", "no_portrait_slideshow"]
+    },
+    {
+      "id": "SB-C",
+      "shots": ["B06", "B07", "B08"],
+      "role_cards": ["R01_young_chen", "R02_father"],
+      "scene_masters": ["S98_HOUSE_layout", "S98_M2_entrance_table_axis"],
+      "state_transfer_chains": ["B06>B07", "B07>B08"],
+      "critical_checks": ["brown_front_door_only", "enter_once", "lunchbox_right_hand", "D08_before_hug_and_D09"]
+    },
+    {
+      "id": "SB-D",
+      "shots": ["B09", "B10", "B11", "B12"],
+      "role_cards": ["R01_young_chen", "R02_father"],
+      "scene_masters": ["S98_HOUSE_layout", "S98_M2_entrance_table_axis"],
+      "direct_tail_chains": ["B11>B12"],
+      "state_transfer_chains": ["B09>B10", "B10>B11"],
+      "critical_checks": ["one_lunchbox", "one_iou", "no_sitting_teleport", "sleeve_grab_continuous"]
+    },
+    {
+      "id": "SB-E",
+      "shots": ["C01", "C02", "C03"],
+      "role_cards": ["R01_young_chen", "R02_father", "R03_laoliu"],
+      "scene_masters": ["S98_ST_brown_door", "S98_M2_entrance_table_axis"],
+      "direct_tail_chains": ["C02>C03"],
+      "sound_bridges": ["B12>C01_approaching_steps", "C01>C02_second_knock"],
+      "critical_checks": ["one_short_breath", "two_knocks", "one_door_open", "one_entry", "one_shift_sheet", "D14_complete"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "V6",
+  "normalization": "ignore_punctuation_only",
+  "reject_extra_prefixes": ["第一段", "好的", "以下是", "台词"],
+  "dialogues": [
+    {"id":"D01","shot":"A01","speaker":"老年陈默","mode":"voiceover","text":"我追了一辈子风口。","visible_lips":false},
+    {"id":"D02","shot":"A02","speaker":"手机系统","mode":"system","text":"您的账户余额不足。","visible_lips":false},
+    {"id":"D03","shot":"A02","speaker":"老年陈默","mode":"voiceover","text":"最后，连家都没留下。","visible_lips":false},
+    {"id":"D04","shot":"A03","speaker":"老年陈默","mode":"native_synced_dialogue","text":"爸……如果能重来……","visible_lips":true},
+    {"id":"D05","shot":"B02","speaker":"青年陈默","mode":"native_synced_dialogue","text":"这是……哪儿？","visible_lips":true},
+    {"id":"D06","shot":"B05","speaker":"青年陈默","mode":"voiceover","text":"六月二十五……爸会死在仓库里。","visible_lips":false},
+    {"id":"D07","shot":"B06","speaker":"陈大山","mode":"native_synced_dialogue","text":"太阳都晒屁股了，还不去找工作？","visible_lips":true},
+    {"id":"D08","shot":"B07","speaker":"青年陈默","mode":"native_synced_dialogue","text":"爸……你还活着。","visible_lips":true},
+    {"id":"D09","shot":"B08","speaker":"陈大山","mode":"native_synced_dialogue","text":"臭小子，发什么疯？","visible_lips":true},
+    {"id":"D10","shot":"B09","speaker":"陈大山","mode":"native_synced_dialogue","text":"你欠的五千块，我替你还。从今天起，给我踏实做人。","visible_lips":true},
+    {"id":"D11","shot":"B10","speaker":"青年陈默","mode":"voiceover","text":"就是这笔债，让爸接了七天后的夜班。","visible_lips":false},
+    {"id":"D12","shot":"B11","speaker":"青年陈默","mode":"native_synced_dialogue","text":"这七天别去仓库，尤其二十五号晚上！","visible_lips":true},
+    {"id":"D13","shot":"B12","speaker":"陈大山","mode":"native_synced_dialogue","text":"仓库我管了十二年，少拿一个梦吓唬我。","visible_lips":true},
+    {"id":"D14","shot":"C03","speaker":"老刘","mode":"native_synced_dialogue","text":"大山，我爱人住院。二十五号夜班，能不能替我？","visible_lips":true}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": "V6",
+  "status": "locked_pre_generation",
+  "provider": "quickrouter",
+  "model": "doubao-seedance-1-5-pro-251215",
+  "canvas": "9:16_full_frame",
+  "final_duration_seconds": 100.0,
+  "reuse_policy": "no_v4_or_v5_video_audio_reuse",
+  "shots": [
+    {"id":"A01","start":0.0,"duration":3.5,"generation_duration":5,"prompt":"prompts/A01.txt","dialogue_ids":["D01"],"start_state":"2028雨夜维修铺外景，老人只占小比例","end_state":"雨声连续，准备切工作台证据"},
+    {"id":"A02","start":3.5,"duration":3.5,"generation_duration":5,"prompt":"prompts/A02.txt","dialogue_ids":["D02","D03"],"start_state":"固定桌面证据，无人物手部","end_state":"手机完成一次亮屏，物件位置不变"},
+    {"id":"A03","start":7.0,"duration":5.0,"generation_duration":5,"prompt":"prompts/A03.txt","dialogue_ids":["D04"],"start_state":"老人坐四脚木凳焊接","end_state":"左手捂胸、右手扶桌、试图起身"},
+    {"id":"A04","start":12.0,"duration":5.0,"generation_duration":5,"prompt":"prompts/A04.txt","dialogue_ids":[],"start_state":"严格承接A03末帧姿态","end_state":"老人倒地停止，木凳仍在画内"},
+    {"id":"B01","start":17.0,"duration":5.0,"generation_duration":5,"prompt":"prompts/B01.txt","dialogue_ids":[],"start_state":"青年完全躺卧，闹钟响","end_state":"青年一次坐起并保持坐姿"},
+    {"id":"B02","start":22.0,"duration":4.0,"generation_duration":5,"prompt":"prompts/B02.txt","dialogue_ids":["D05"],"start_state":"严格承接B01已坐起状态","end_state":"闹钟已停，青年看向开放主屋与后墙日历"},
+    {"id":"B03","start":26.0,"duration":4.0,"generation_duration":5,"prompt":"prompts/B03.txt","dialogue_ids":[],"start_state":"青年坐在开放主屋左侧同一床边","end_state":"青年沿电视旁通道走到后墙日历前"},
+    {"id":"B04","start":30.0,"duration":4.0,"generation_duration":5,"prompt":"prompts/B04.txt","dialogue_ids":[],"start_state":"青年已到后墙日历前","end_state":"只撕一页并指向空白日期区"},
+    {"id":"B05","start":34.0,"duration":5.0,"generation_duration":5,"prompt":"prompts/B05.txt","dialogue_ids":["D06"],"start_state":"同一仓库单镜记忆","end_state":"黑色饭盒落地停止"},
+    {"id":"B06","start":39.0,"duration":8.0,"generation_duration":10,"prompt":"prompts/B06.txt","dialogue_ids":["D07"],"start_state":"青年在后墙日历旁，左侧棕色入户门关闭","end_state":"父亲从棕门进屋站稳，饭盒始终在右手"},
+    {"id":"B07","start":47.0,"duration":5.0,"generation_duration":5,"prompt":"prompts/B07.txt","dialogue_ids":["D08"],"start_state":"父亲站在棕色入户门内，青年看着父亲","end_state":"青年说完并沿餐桌左侧向父亲走近两步"},
+    {"id":"B08","start":52.0,"duration":6.0,"generation_duration":10,"prompt":"prompts/B08.txt","dialogue_ids":["D09"],"start_state":"承接B07距离，青年继续抱住父亲","end_state":"父亲回应完，两人开始分开，饭盒仍在右手"},
+    {"id":"B09","start":58.0,"duration":10.0,"generation_duration":10,"prompt":"prompts/B09.txt","dialogue_ids":["D10"],"start_state":"父子刚分开，父亲右手持饭盒","end_state":"饭盒与唯一欠条在桌上，父亲两句话完整结束"},
+    {"id":"B10","start":68.0,"duration":3.0,"generation_duration":5,"prompt":"prompts/B10.txt","dialogue_ids":["D11"],"start_state":"青年站着看同一张欠条","end_state":"青年手指收紧并抬眼看父亲"},
+    {"id":"B11","start":71.0,"duration":6.0,"generation_duration":10,"prompt":"prompts/B11.txt","dialogue_ids":["D12"],"start_state":"父亲从桌上用右手拿同一饭盒","end_state":"青年右手抓住父亲左袖，警告完整结束"},
+    {"id":"B12","start":77.0,"duration":6.0,"generation_duration":10,"prompt":"prompts/B12.txt","dialogue_ids":["D13"],"start_state":"保持B11在棕色入户门内侧的抓袖位置，父亲未离开","end_state":"父亲抽回左袖并说完，仍在棕色入户门内侧"},
+    {"id":"C01","start":83.0,"duration":5.0,"generation_duration":5,"prompt":"prompts/C01.txt","dialogue_ids":[],"start_state":"老刘从楼梯下方进入画面","end_state":"门外站稳并完成两次敲门"},
+    {"id":"C02","start":88.0,"duration":4.0,"generation_duration":5,"prompt":"prompts/C02.txt","dialogue_ids":[],"start_state":"父亲已在棕色入户门内侧，第二次敲门刚结束","end_state":"棕门开一次，老刘跨门槛半步，青年仍在餐桌旁"},
+    {"id":"C03","start":92.0,"duration":8.0,"generation_duration":10,"prompt":"prompts/C03.txt","dialogue_ids":["D14"],"start_state":"三人保持C02门口位置，老刘只拿一张小排班纸","end_state":"父亲接纸一次，青年僵住，台词完整结束"}
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": "V6",
+  "visual_medium": "modern_cinematic_live_action_realism",
+  "no_mixed_media": true,
+  "characters": [
+    {
+      "id": "R04",
+      "name": "2028年陈默",
+      "status": "user_locked",
+      "reference": "../../../assets/v6/characters/R04_2028陈默_用户锁定参考_v1.png",
+      "age": 54,
+      "appearance": "长期负债与劳累导致明显沧桑；短黑发大量掺灰、自然额纹眼袋、轻微灰白胡茬、清瘦但不佝偻",
+      "wardrobe": "黑色短袖Polo、现代深藏蓝工装马甲、黑裤、左腕钢表",
+      "forbidden_changes": ["换演员", "改成国漫或插画", "去掉钢表", "更换服装", "突然白发", "年龄明显漂移"]
+    },
+    {
+      "id": "R01",
+      "name": "1998年青年陈默",
+      "status": "user_locked",
+      "reference": "../../../assets/v6/characters/R01_1998陈默_用户锁定参考_v1.png",
+      "age": 24,
+      "appearance": "短黑发、无胡须、年轻朴素的中国男性面容；身形清瘦、四肢比例自然",
+      "wardrobe": "浅灰白色长袖衬衫卷袖、深色宽松长裤、磨旧米白色系带运动鞋",
+      "source_policy": "只采用参考图中的人物；农村院落、标语、自行车、玉米及其他背景元素全部忽略",
+      "forbidden_changes": ["换演员", "改成国漫或插画", "更换发型", "换回蓝工装白背心", "带入参考图农村背景", "年龄明显漂移"]
+    },
+    {
+      "id": "R02",
+      "name": "陈大山",
+      "status": "user_locked",
+      "reference": "../../../assets/v6/characters/R02_陈大山_用户锁定参考_v1.png",
+      "age": 52,
+      "appearance": "短黑发自然侧分、两鬓少量灰、干净无胡须；真实皱纹与日晒痕迹；中等偏结实的劳动者体型",
+      "wardrobe": "灰蓝色短袖扣领工装衬衫、内露白色背心、深色长裤、旧深色工鞋、左腕银色金属表",
+      "source_policy": "只采用参考图中的人物；日历、文字、挂画、保温瓶、茶杯、木柜、床铺及窗户全部忽略",
+      "forbidden_changes": ["换演员", "添加红色厂章", "改成长袖工装", "去掉左腕手表", "带入参考图背景", "年龄明显漂移"]
+    },
+    {
+      "id": "R03",
+      "name": "老刘",
+      "status": "user_locked",
+      "reference": "../../../assets/v6/characters/R03_老刘_用户锁定参考_v1.png",
+      "age": 48,
+      "appearance": "短黑发、两鬓轻微灰白、面部偏长、自然皱纹、嘴周轻微胡茬；普通工人身形",
+      "wardrobe": "洗旧深藏蓝色长袖工装外套并卷袖、米白色翻领内衬、深色工裤、旧深色工鞋",
+      "episode01_prop": "唯一一张A5空白排班纸",
+      "source_policy": "只采用参考图人物；厂房、标语、胸口文字、手中抹布及右侧人物全部忽略",
+      "forbidden_changes": ["换演员", "生成可读厂名", "改成浅灰工装", "添加帆布肩包或抹布", "带入参考图厂房背景", "年龄明显漂移"]
+    }
+  ]
+}
