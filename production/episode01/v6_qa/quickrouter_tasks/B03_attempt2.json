@@ -1,0 +1,34 @@
+{
+  "shot": "B03",
+  "task_id": "cgt-20260716132039-9gh5z",
+  "input_path": "D:\\zzl-new\\AIhonggguo\\assets\\v6\\tail_frames\\B02_tail.png",
+  "uploaded_url": "https://imageproxy.zhongzhuan.chat/api/proxy/image/773f13fd2a6d978e1bbdbe03c2b68834.png",
+  "submit_response": {
+    "id": "cgt-20260716132039-9gh5z",
+    "status": "submitted"
+  },
+  "latest_response": {
+    "id": "cgt-20260716132039-9gh5z",
+    "seed": 0,
+    "draft": false,
+    "model": "doubao-seedance-1-5-pro-251215",
+    "ratio": "9:16",
+    "usage": {
+      "total_tokens": 108900,
+      "completion_tokens": 108900
+    },
+    "status": "succeeded",
+    "content": {
+      "video_url": "https://ark-content-generation-cn-beijing.tos-cn-beijing.volces.com/doubao-seedance-1-5-pro/02178417924251700000000000000000000ffffac1813c991dd48.mp4?X-Tos-Algorithm=TOS4-HMAC-SHA256&X-Tos-Credential=AKLTYWJkZTExNjA1ZDUyNDc3YzhjNTM5OGIyNjBhNDcyOTQ%2F20260716%2Fcn-beijing%2Ftos%2Frequest&X-Tos-Date=20260716T052136Z&X-Tos-Expires=86400&X-Tos-Signature=d5fa610529222a716a78f5c7a01f0f7aea41edfd3abc125db610ef0f3f98953e&X-Tos-SignedHeaders=host"
+    },
+    "duration": 5,
+    "priority": 0,
+    "created_at": 1784179242,
+    "resolution": "720p",
+    "updated_at": 1784179296,
+    "service_tier": "default",
+    "generate_audio": true,
+    "framespersecond": 24,
+    "execution_expires_after": 172800
+  }
+}

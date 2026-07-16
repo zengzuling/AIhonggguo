@@ -1,0 +1,54 @@
+{
+  "version": "V6",
+  "status": "seven_independent_starts_ready",
+  "base_path": "../../../assets/v6/first_frames/",
+  "frames": [
+    {
+      "id": "A03",
+      "file": "A03_first_frame_v1.png",
+      "status": "qa_passed",
+      "start": "疲惫专注、完整坐在四脚木凳上操作电烙铁，胸痛尚未开始"
+    },
+    {
+      "id": "B01",
+      "file": "B01_first_frame_v1.png",
+      "status": "qa_passed",
+      "start": "青年在开放主屋左侧金属床上完全躺卧，闹钟尚未触发坐起"
+    },
+    {
+      "id": "B06",
+      "file": "B06_first_frame_v1.png",
+      "status": "qa_passed",
+      "start": "为锁定父亲身份，从棕门已开始打开、父亲出现在门槛的第一动作时刻开始"
+    },
+    {
+      "id": "B07",
+      "file": "B07_first_frame_v1.png",
+      "status": "qa_passed",
+      "start": "父亲已在门内站稳，青年震惊确认，尚未走近或拥抱"
+    },
+    {
+      "id": "B08",
+      "file": "B08_first_frame_v1.png",
+      "status": "qa_passed",
+      "start": "青年已走到父亲面前，尚未接触；父亲右手持饭盒、左腕佩表"
+    },
+    {
+      "id": "C01",
+      "file": "C01_first_frame_v1.png",
+      "status": "qa_passed",
+      "start": "老刘仍在楼梯上行，左手持唯一排班纸，尚未敲门"
+    },
+    {
+      "id": "C02",
+      "file": "C02_first_frame_v1.png",
+      "status": "qa_passed",
+      "start": "为锁定老刘身份，从棕门已开始打开、老刘在门外可见的第一动作时刻开始"
+    }
+  ],
+  "tail_frame_required": [
+    {"id": "A04", "source": "A03通过视频的末帧"},
+    {"id": "B02", "source": "B01通过视频的末帧"},
+    {"id": "C03", "source": "C02通过视频的末帧"}
+  ]
+}

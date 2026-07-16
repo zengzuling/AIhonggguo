@@ -1,0 +1,22 @@
+{
+  "shot": "B07",
+  "task_id": "cgt-20260716150112-5rmwv",
+  "input_path": "D:\\zzl-new\\AIhonggguo\\assets\\v6\\first_frames\\B07_first_frame_v1.png",
+  "uploaded_url": "https://imageproxy.zhongzhuan.chat/api/proxy/image/be44bae967b69dbaf8fb7db93ff808ef.png",
+  "submit_response": {
+    "id": "cgt-20260716150112-5rmwv",
+    "status": "submitted"
+  },
+  "latest_response": {
+    "id": "cgt-20260716150112-5rmwv",
+    "draft": false,
+    "model": "doubao-seedance-1-5-pro-251215",
+    "status": "queued",
+    "priority": 0,
+    "created_at": 1784185275,
+    "updated_at": 1784185275,
+    "service_tier": "default",
+    "generate_audio": true,
+    "execution_expires_after": 172800
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": "V6",
+  "scope": "episode01_00_00_to_00_30",
+  "status": "first30_generated_and_qa_passed",
+  "provider": "quickrouter",
+  "model": "doubao-seedance-1-5-pro-251215",
+  "assembly": {
+    "output": "../v6_output/episode01_first30_review_v2.mp4",
+    "duration_seconds": 30.0,
+    "resolution": "720x1280",
+    "fps": 24,
+    "note": "B03无对白，将5.05秒完整动作等比压缩至4秒；A03、B02原生对白音画不变速"
+  },
+  "timeline": [
+    {"shot":"A01","start":0.0,"end":3.5,"generation_duration":5,"input":{"kind":"clean_first_frame","path":"../../../assets/v6/first_frames/A01_first_frame_v1.png"},"depends_on":[]},
+    {"shot":"A02","start":3.5,"end":7.0,"generation_duration":5,"input":{"kind":"clean_first_frame","path":"../../../assets/v6/first_frames/A02_first_frame_v1.png"},"depends_on":["A01_state_and_sound"]},
+    {"shot":"A03","start":7.0,"end":12.0,"generation_duration":5,"input":{"kind":"approved_first_frame","path":"../../../assets/v6/first_frames/A03_first_frame_v1.png"},"depends_on":["A02_state"]},
+    {"shot":"A04","start":12.0,"end":17.0,"generation_duration":5,"input":{"kind":"passed_tail_frame","from_shot":"A03"},"depends_on":["A03_passed"]},
+    {"shot":"B01","start":17.0,"end":22.0,"generation_duration":5,"input":{"kind":"approved_first_frame","path":"../../../assets/v6/first_frames/B01_first_frame_v1.png"},"depends_on":["A04_story_and_sound"]},
+    {"shot":"B02","start":22.0,"end":26.0,"generation_duration":5,"input":{"kind":"passed_tail_frame","from_shot":"B01"},"depends_on":["B01_passed"]},
+    {"shot":"B03","start":26.0,"end":30.0,"generation_duration":5,"input":{"kind":"clean_state_transfer_frame","path":"../../../assets/v6/first_frames/B03_first_frame_v1.png"},"depends_on":["B02_passed"]}
+  ],
+  "continuity_contract": [
+    "A01到A03保持同一2028维修铺、冷蓝灰雨夜、工作台材质与老年陈默身份",
+    "A03到A04必须使用通过验收的A03尾帧，老人只倒下一次",
+    "A04心跳停止后用机械闹钟声桥进入B01，形成死亡到重生的因果转场",
+    "B01到B03保持同一1998开放主屋、同一青年陈默、同一床与同一晨光",
+    "B01到B02使用前镜通过后的尾帧；B02到B03使用同一坐姿、同一房间的新机位状态转移帧，禁止时间跳跃、重新躺下、瞬移或换脸",
+    "B03结束在后墙日历前最后一步，不提前撕页；B04从该动作尾帧继续一步后揭示日期"
+  ],
+  "audio_contract": {
+    "native_visible_dialogue_shots": ["A03", "B02"],
+    "visible_dialogue_policy": "保留生成视频原生同步音频；只允许裁掉无声边缘，禁止变速、插帧、定格和替换人声",
+    "voiceover_shots": ["A01", "A02"],
+    "voiceover_lips": "画中人物不可出现说话口型",
+    "asr_expected": {
+      "A01": ["我追了一辈子风口。"],
+      "A02": ["您的账户余额不足。", "最后，连家都没留下。"],
+      "A03": ["爸……如果能重来……"],
+      "B02": ["这是……哪儿？"]
+    },
+    "sound_bridges": ["A01雨声延续至A02", "A04心跳停止后切入B01机械闹钟", "B01闹钟延续到B02按停动作"]
+  },
+  "acceptance_gate": [
+    "每个镜头先通过人物身份、肢体、道具、空间和单次动作检查",
+    "含台词镜头ASR忽略标点后必须与锁定台词完全一致且无额外前缀",
+    "A03和B02按0.25秒抽帧检查开口、停顿闭口与句尾闭口",
+    "依赖镜头未通过时不得提交后继镜头"
+  ]
+}

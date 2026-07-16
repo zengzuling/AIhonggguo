@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-07-16T15:15:00+08:00",
+  "target_duration_seconds": 100,
+  "contiguous_preview": {
+    "duration_seconds": 47,
+    "path": "../../v6_output/episode01_first47_review_v1.mp4"
+  },
+  "passed": {
+    "B04": "日历前撕页动作完成，无对白",
+    "B05": "第二次生成通过，唯一长方形饭盒落地，ASR为六月二十五爸会死在仓库里",
+    "B06": "父亲从棕门进入，饭盒在右手，ASR完全匹配",
+    "B08": "拥抱一次，饭盒在右手，ASR完全匹配",
+    "C01": "老刘持唯一排班纸上楼并敲门，无额外台词"
+  },
+  "pending": ["B07", "B09", "B10", "B11", "B12", "C02", "C03"],
+  "blocked": {
+    "shot": "B07",
+    "error": "AccountOverdueError",
+    "request_id": "02178418725458500000000000000000000ffffac181cdf83a4cc"
+  },
+  "resume_from": "充值后重新提交B07；B09输入尾帧B08_tail.png已就绪"
+}

@@ -1,8 +1,10 @@
 {
   "version": "V6",
+  "status": "planning_only_not_first_frame_source",
   "source_method": "role_card_storyboard_tail_frame",
   "adaptation": "seedance_1_5_single_clean_first_frame",
   "rule": "storyboard_sheet_is_for_planning_only; submit_one_clean_9_16_frame_to_video_model",
+  "face_qa": "multi_panel_faces_rejected; generate_each_clean_first_frame_individually",
   "groups": [
     {
       "id": "SB-A",

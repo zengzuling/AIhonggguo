@@ -1,6 +1,7 @@
 {
   "version": "V6",
   "status": "locked_pre_generation",
+  "performance_manifest": "performance_manifest.json",
   "provider": "quickrouter",
   "model": "doubao-seedance-1-5-pro-251215",
   "canvas": "9:16_full_frame",

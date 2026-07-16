@@ -1,0 +1,178 @@
+{
+  "version": "V6",
+  "status": "locked_for_individual_first_frame_generation",
+  "rule": "first_frame_must_have_correct_identity_and_start_expression; video_prompt_controls_expression_and_body_progression",
+  "shots": [
+    {
+      "id": "A01",
+      "face_start": "人物占比很小，面部不可辨，不要求口型",
+      "face_progression": "始终低头疲惫，不抬头面对镜头",
+      "body_start": "老年陈默站在工作台旁，肩背因长期劳累轻微下沉",
+      "body_progression": "缓慢收拾零件，动作迟滞但不循环",
+      "body_end": "人物位置基本不变",
+      "lip_policy": "心声，嘴唇不可见"
+    },
+    {
+      "id": "A02",
+      "face_start": "无人物",
+      "face_progression": "无人物",
+      "body_start": "无人物和手部",
+      "body_progression": "仅手机亮屏一次",
+      "body_end": "全部物件继续静置",
+      "lip_policy": "系统声与心声，无口型"
+    },
+    {
+      "id": "A03",
+      "face_start": "疲惫专注，眼睑沉重，嘴角自然下垂，不能提前痛苦夸张",
+      "face_progression": "胸痛突发后眉间迅速收紧、眼神失焦一瞬，再抬眼露出悔恨与求而不得；说话气弱",
+      "body_start": "坐稳四脚木凳，右手操作电烙铁，左手自然靠近桌沿",
+      "body_progression": "左手捂胸一次，右手扶桌，呼吸变浅，尝试起身",
+      "body_end": "臀部刚离凳，左手捂胸、右手扶桌",
+      "lip_policy": "D04逐字同步，停顿闭口，句尾闭口"
+    },
+    {
+      "id": "A04",
+      "face_start": "严格承接A03的剧烈胸痛与悔恨，牙关轻咬，不说话",
+      "face_progression": "疼痛加重后表情逐渐失去力量，不尖叫、不狰狞",
+      "body_start": "左手捂胸、右手扶桌、臀部刚离木凳",
+      "body_progression": "膝盖失力一次，沿桌边缓慢滑落，右腿轻碰木凳",
+      "body_end": "倒地停止，木凳仍完整可见",
+      "lip_policy": "无台词，嘴唇闭合"
+    },
+    {
+      "id": "B01",
+      "face_start": "熟睡但眉间残留压抑，不做安详微笑",
+      "face_progression": "被闹钟惊醒时眼睛突然睁大、短促吸气，坐起后呈强烈陌生感",
+      "body_start": "全身完全躺卧",
+      "body_progression": "一次坐起，双肩因急喘抬起一次",
+      "body_end": "保持床边坐姿，不重新躺下",
+      "lip_policy": "无台词，急喘后闭口"
+    },
+    {
+      "id": "B02",
+      "face_start": "承接震惊与迷茫，眼神快速确认闹钟和自己的双手",
+      "face_progression": "眉头收紧、瞳孔聚焦，压低声音提问后望向日历方向",
+      "body_start": "已经坐起，右手靠近闹钟",
+      "body_progression": "按停一次，举起双手确认，再抬眼扫视",
+      "body_end": "保持坐姿并看向后墙日历",
+      "lip_policy": "D05逐字同步，停顿与句尾闭口"
+    },
+    {
+      "id": "B03",
+      "face_start": "震惊尚未平复，嘴唇闭合，目光锁定日历",
+      "face_progression": "由不敢相信转为急切确认，不看门、不看镜头",
+      "body_start": "坐在同一床边，双脚准备落地",
+      "body_progression": "起身后沿电视旁通道连续走向日历",
+      "body_end": "在日历前站稳",
+      "lip_policy": "无台词，嘴唇闭合"
+    },
+    {
+      "id": "B04",
+      "face_start": "盯住空白日历，眉间紧张、呼吸克制",
+      "face_progression": "撕页后眼神骤紧，恐惧被确认但不夸张哭喊",
+      "body_start": "已在日历前站稳，右手抬向纸页",
+      "body_progression": "只撕一页，食指停在空白日期区旁",
+      "body_end": "身体僵住，目光固定",
+      "lip_policy": "无台词，嘴唇闭合"
+    },
+    {
+      "id": "B05",
+      "face_start": "无人物",
+      "face_progression": "无人物",
+      "body_start": "货架直立、饭盒位于货架侧面",
+      "body_progression": "货架晃动一次、单枚螺栓松脱、饭盒落地",
+      "body_end": "饭盒滚动半圈后停止",
+      "lip_policy": "心声，无口型"
+    },
+    {
+      "id": "B06",
+      "face_start": "青年仍处于日期确认后的惊恐；父亲进门时是日常疲惫、略带责备",
+      "face_progression": "父亲说话时眉头轻皱但不是暴怒；青年看清父亲后眼神骤停、眼眶开始发湿",
+      "body_start": "青年站在日历旁，父亲尚在门外",
+      "body_progression": "父亲右手提饭盒进门一次、关门、站稳并说话；青年不动",
+      "body_end": "父亲在门内站稳，青年震惊闭口",
+      "lip_policy": "仅父亲D07逐字同步，青年闭口"
+    },
+    {
+      "id": "B07",
+      "face_start": "青年不敢相信地看着父亲，眼眶迅速湿润但不掉泪；父亲困惑地观察青年",
+      "face_progression": "青年从震惊转为失而复得，声音轻颤，说完后下颌轻收；父亲由困惑转为担心",
+      "body_start": "父亲站在门内，青年与父亲保持两步以上距离",
+      "body_progression": "青年说完D08后连续靠近两步，不提前拥抱",
+      "body_end": "两人距离缩短，饭盒仍在父亲右手",
+      "lip_policy": "仅青年D08逐字同步，父亲闭口"
+    },
+    {
+      "id": "B08",
+      "face_start": "青年眼眶湿润、强忍情绪；父亲惊讶且不知所措",
+      "face_progression": "拥抱稳定后青年闭眼压住失而复得的悲喜；父亲从惊讶转为担忧并开口",
+      "body_start": "青年已走到父亲面前，尚未接触",
+      "body_progression": "青年抱住一次；父亲右手始终持饭盒，左手扶住青年",
+      "body_end": "父亲说完D09，两人开始分开",
+      "lip_policy": "仅父亲D09逐字同步，青年闭口"
+    },
+    {
+      "id": "B09",
+      "face_start": "父亲从担忧收回到严肃，青年仍有重逢后的恍惚",
+      "face_progression": "父亲前半压住怒气，后半转为疲惫与心疼；青年由恍惚转为自责",
+      "body_start": "父子刚分开，父亲右手持饭盒",
+      "body_progression": "父亲放饭盒、取出并展开唯一欠条，然后完整说话",
+      "body_end": "饭盒和欠条在桌上，父亲保持站立",
+      "lip_policy": "仅父亲D10逐字同步，青年闭口"
+    },
+    {
+      "id": "B10",
+      "face_start": "低头看欠条，自责压住视线",
+      "face_progression": "自责逐渐转为对父亲死亡节点的恐惧，眼神骤紧、下颌轻绷",
+      "body_start": "站在桌边，右手手指放松",
+      "body_progression": "右手手指缓慢收紧，再抬眼看父亲",
+      "body_end": "抬眼保持恐惧与决心混合的表情",
+      "lip_policy": "心声，嘴唇闭合"
+    },
+    {
+      "id": "B11",
+      "face_start": "青年察觉父亲要走，恐惧迅速转为急切坚定；父亲仍是日常不以为意",
+      "face_progression": "青年抓袖后直视父亲，语气急但不失控；父亲被拦住后皱眉回头",
+      "body_start": "父亲在桌边，青年在其后方",
+      "body_progression": "父亲右手拿饭盒走一步；青年右手抓父亲左袖一次并说话",
+      "body_end": "保持抓袖状态，父亲未过门槛",
+      "lip_policy": "仅青年D12逐字同步，父亲闭口"
+    },
+    {
+      "id": "B12",
+      "face_start": "父亲回头，固执、自信且略不耐烦；青年焦急等待回答",
+      "face_progression": "父亲说话时保持工人经验带来的笃定，不咆哮；青年听后恐惧加深",
+      "body_start": "严格承接抓袖位置，父亲右手持饭盒",
+      "body_progression": "父亲左臂抽回袖口一次，身体仍在门内",
+      "body_end": "父亲停在原地，青年手落下",
+      "lip_policy": "仅父亲D13逐字同步，青年闭口"
+    },
+    {
+      "id": "C01",
+      "face_start": "老刘带着赶路焦急，眉头轻皱，不做夸张张嘴喘气",
+      "face_progression": "停住后只短喘一次，迅速压下慌乱准备求人",
+      "body_start": "从楼梯下方进入，左手持唯一排班纸",
+      "body_progression": "跑上最后几级、站稳、右手敲门两次",
+      "body_end": "右手停在门前，呼吸恢复",
+      "lip_policy": "无台词，短喘后闭口"
+    },
+    {
+      "id": "C02",
+      "face_start": "父亲听到敲门后正常警觉；青年仍带焦虑；门外老刘焦急克制",
+      "face_progression": "父亲开门后转为疑问；老刘见到父亲后显出为难；青年注意力转向排班纸",
+      "body_start": "父亲在门内，青年在餐桌旁，老刘在门外",
+      "body_progression": "父亲开门一次，老刘跨门槛半步",
+      "body_end": "三人位置固定，为C03直接续拍",
+      "lip_policy": "无台词，三人闭口"
+    },
+    {
+      "id": "C03",
+      "face_start": "老刘焦急、为难且带恳求；父亲耐心听；青年在后景警惕",
+      "face_progression": "老刘说到爱人住院时克制难堪，说到夜班时目光请求；父亲认真接纸；青年听见二十五号后眼神骤紧、身体僵住",
+      "body_start": "老刘跨门槛半步，持唯一排班纸；父亲右手饭盒，青年在餐桌旁",
+      "body_progression": "老刘说话并递纸；父亲左手接纸一次；青年不前冲",
+      "body_end": "父亲接住纸，青年僵住，D14完整结束",
+      "lip_policy": "仅老刘D14逐字同步，父亲和青年闭口"
+    }
+  ]
+}
